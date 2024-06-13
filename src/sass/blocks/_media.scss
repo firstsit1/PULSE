@@ -37,6 +37,22 @@
 		line-height: 45px;
 		
 	}
+	.catalog {
+		&-item {
+			margin: 40px;
+		}
+	}
+	.reviews {
+		&__img {
+			margin-right: 30px;
+			margin-left: 10px;
+		}
+		&__descr {
+			font-size: 14px;
+			width: 430px;
+		}
+		
+	}
 }
 
 @media (max-width: 767px) {
@@ -98,6 +114,38 @@
 	}
 	.carousel {
 		display: none;
+	}
+	.titlecatalog {
+		margin-top: 50px;
+	}
+	.catalog {
+		padding-bottom: 20px;
+		&-item {
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		&__tab {
+			width: 150px;
+			font-size: 15px;
+		}
+	}
+	.reviews {
+		&__item {
+			margin-top: 60px;
+		}
+		&__img {
+			width: 100px;
+		}
+		&__descr {
+			font-size: 13px;
+			width: 380px;
+		}
+	}
+	.footer {
+		&__info {
+			width: 445px;
+			height: 255px;
+		}
 	}
 }
 
@@ -161,5 +209,56 @@
 	}
 	.feed-form {
 		width: 250px;
+	}
+	.catalog {
+		padding-bottom: 5px;
+		.titlecatalog {
+			font-size: 21px;
+		}
+		&__tabs {
+			flex-direction: column;
+		}
+		&__tab {
+			margin-bottom: 10px;
+		}
+	}
+	.reviews {
+		.title-review {
+			font-size: 23px;
+			margin-top: 20px;
+		}
+		&__item {
+			align-items: center; 
+			flex-direction: column;
+		}
+		&__descr {
+			width: 300px;
+		}
+		&__block {
+			margin-top: 20px;
+			display: block;
+			text-align: center;
+		}
+		&__img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.footer {
+		&__info {
+			width: 300px;
+			height: 250px;
+		}
+		&__addr {
+			font-size: 17px;
+
+		}
+		&__phone {
+			font-size: 17px;
+		}
+		&__social-item {
+			width: 45px;
+			height: 45px;
+		}
 	}
 }
