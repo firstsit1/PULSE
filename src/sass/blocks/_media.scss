@@ -30,6 +30,9 @@
 	}
 	.feed-form {
 		margin-left: 20px;
+		&_ml0 {
+			margin-left: 0;
+		}
 	}
 	.advantagesheader_left {
 		margin-left: 20px;
@@ -210,6 +213,28 @@
 	.feed-form {
 		width: 250px;
 	}
+	.overlay {
+		.modal {
+			width: 250px;
+			&__subtitle {
+				font-size: 10px;
+			}
+			&__descr {
+				font-size: 8px;
+				margin-top: 10px;
+			}
+			input {
+				width: 170px;
+			}
+			button {
+				width: 170px;
+				font-size: 11px;
+			}
+			&__close {
+				right: -30px;
+			}
+		}
+	}
 	.catalog {
 		padding-bottom: 5px;
 		.titlecatalog {
@@ -261,4 +286,15 @@
 			height: 45px;
 		}
 	}
+	.modal {
+		label.error {
+			font-size: 9px;
+		}
+	}
+	.consultation {
+		label.error {
+			font-size: 11px;
+		}
+	}
+	
 }
